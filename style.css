@@ -201,6 +201,14 @@ body {
     background-color: #275BAC;
 }
 
-
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
 
 /*     border: 1px solid red; /* for debugging */ 
