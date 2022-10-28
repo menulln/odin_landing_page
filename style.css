@@ -92,10 +92,50 @@ body {
     align-items: center;
 }
 
+.cards-container {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.cards-title {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cards {
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    width: 180px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #1F2937;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
 
 
 
 
 
-
-/*     border: 1px solid red; /* for debugging */ */
+/*     border: 1px solid red; /* for debugging */ 
