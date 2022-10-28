@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    height: 72px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
