@@ -134,8 +134,30 @@ body {
     border-radius: 10px;
 }
 
+.quote-container {
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
 
+.quote {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.quote-paragraph {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
 
+.quote-author {
+    margin-left: auto;
+    font-size: 24px;
+    color: #1F2937;
+}
 
 /*     border: 1px solid red; /* for debugging */ 
