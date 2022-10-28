@@ -160,4 +160,47 @@ body {
     color: #1F2937;
 }
 
+.newsletter-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    height: 150px;
+    width: 1080px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newsletter-title {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.newsletter-paragraph {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.newsletter-button {
+    background-color:#3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.newsletter-button:hover {
+    background-color: #275BAC;
+}
+
+
+
 /*     border: 1px solid red; /* for debugging */ 
