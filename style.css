@@ -24,10 +24,11 @@ body {
     align-items: center;
 }
 
-.logo {
+.logo a {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .links {
