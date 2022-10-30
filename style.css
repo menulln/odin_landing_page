@@ -244,6 +244,10 @@ body {
     gap: 32px;
 }
 
+.signup-title {
+    color: #1F2937;
+}
+
 .signup-item {
     display: flex;
     flex-direction: column;
@@ -251,6 +255,7 @@ body {
 }
 
 .signup-text {
+    color: #1F2937;
     font-size: 14px;
     font-weight: bold;
 }
