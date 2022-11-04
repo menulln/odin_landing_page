@@ -5,3 +5,15 @@ const inputPassword = document.querySelector('.input-password');
 inputUsername.addEventListener('onchange', validateUsername);
 inputEmail.addEventListener('onchange', validateEmail);
 inputPassword.addEventListener('onchange', validatePassword);
+
+function validateUsername(e) {
+
+}
+
+function validateEmail(e) {
+
+}
+
+function validatePassword(e) {
+    
+}
