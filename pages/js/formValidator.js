@@ -26,7 +26,22 @@ function validateUsername(e) {
 }
 
 function validateEmail(e) {
+    const section = document.querySelector('.signup-email');
+    const re = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    const errorMsg = document.createElement('p');
+    errorMsg.textContent = 'Invalid E-Mail. (example@email.com)';
+    errorMsg.style.color = '#E22F2B'; 
+    errorMsg.style.fontSize = '14px';
 
+    if (!(this.value.match(re))) {
+        if (section.childElementCount < 3) {
+            section.appendChild(errorMsg);
+        }
+    } else {
+        if (section.childElementCount > 2) {
+            section.removeChild(section.lastChild);
+        }
+    }
 }
 
 function validatePassword(e) {
